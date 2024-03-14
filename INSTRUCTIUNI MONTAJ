@@ -1,0 +1,20 @@
+Instructiuni legate de montaj
+Placa Arduino Uno se conecteaza prin portul USB la un Computer
+Releul 5V 1 canal
+•	IN – firul verde  PIN 10 Arduino
+•	GND – firul negru  PIN GND Arduino
+•	VCC – firul mov  PIN 5V Arduino
+•	COM – VCC yala electromagnetica
+•	NO – VCC transformator 12V - 1A
+Senzor amprenta:
+•	VCC – firul rosu  PIN 3.3V Arduino
+•	TX – firul verde   PIN 3 Arduino
+•	RX – firul galben  PIN 2 Arduino
+•	GND – firul negru  PIN GND Arduino
+Buton:
+•	Verificam cu multimetru daca intre 2 pini alaturați exista o mica rezistența, astfel aflam ca au legatura intre ei si o sa-i consideram ca fiind „pe aceeasi parte”.
+•	La pinii de pe aceeași parte, firul alb il conectam la PIN 6 Arduino iar celalalt, firul turcoaz, il legam la PIN GND Arduino (pe traseu catre GND adaugam o rezistența de 20K).
+•	Pinul butonului de pe partea opusa celui care are rezistența, firul mov va fi conectat la PIN 5V Arduino.
+Yala electromagnetica:
+•	Pe unul dintre suruburi venim cu firul negru, adica MINUS din transformator.
+•	Pe celalalt surub venim cu firul rosu, adica PLUS din portul COM.
